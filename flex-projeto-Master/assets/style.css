@@ -80,6 +80,7 @@ body {
 /* my change to hove over the pic*/
 .profile-photo img:hover {
     transform: scale(1.5);
+    cursor:progress;
 
 }
 /* end of change*/
@@ -150,9 +151,10 @@ body {
 /* media queries*/
 
 @media (max-width:1024px){
-    .instagram-wrapper: 90%;
+    .instagram-wrapper {
+        height: 90%;
+    }
 }
-
 
 @media (max-width: 650px){
     body {
